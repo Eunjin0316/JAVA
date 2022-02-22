@@ -1,0 +1,46 @@
+1. Download JDK 17.0.2 
+-visit http://java.oracle.com
+-Products : JAVA SE
+2. JAVA_HOME
+-C\Program Files\Java\java-17.0.2
+3. Path
+-%JAVA_HOME%\bin
+4. cmd
+- javac -version
+- java -version
+- echo %JAVA_HOME%
+- echo %Path%
+
+5. change setting (.txt)
+6. New file C:\CookJava\Chapter01\Hellojava
+1-1 HelloJava.java
+public class HelloJava
+{
+	public static void main (String[] args)
+	{
+	System.out.println("안녕? Java~~");
+	}
+}
+
+6. 
+- CD \
+- CD CookJava
+- CD Chapter01
+- CD HelloJava
+- DIR
+
+JAVAC HelloJava.java (<-error: unmappable character (0xEB) for encoding x-windows-949)
+-put -encoding UTF8 on the end
+DIR
+
+JAVA HelloJava
+안녕? Java~~
+
+Pratice
+public  class HelloJava
+{
+	public static void main (String[] args)
+	{
+	System.out.println("안녕하세요? Java는 좋은 언어입니다.);
+	}
+}
